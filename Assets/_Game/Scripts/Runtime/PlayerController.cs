@@ -1,18 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+namespace Game
 {
-    // Start is called before the first frame update
-    void Start()
+    public class PlayerController : MonoBehaviour
     {
-        
+        public float FlySpeed;
+        public Rigidbody AttachedRigidbody;
+        public Transform MainCamera;
+
+        private Vector3 input;
+
+        private void Update ()
+        {
+            input = new Vector3(
+                Input.GetAxis ("Horizontal"),
+                Input.GetAxis ("Vertical"),
+                Input.GetAxis ("Forward")
+                );
+        }
+
+        private void FixedUpdate ()
+        {
+            var direction = MainCamera.TransformDirection (input);
+            var frameDistance = direction * FlySpeed * Time.fixedDeltaTime;
+            var targetPosition = AttachedRigidbody.position + frameDistance;
+ 
+            AttachedRigidbody.MovePosition (targetPosition);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
