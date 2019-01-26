@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517467896712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.19}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8444956517626313137}
@@ -44,7 +44,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.21751513, g: 0.6770713, b: 0.9811321, a: 1}
-  m_Intensity: 47.778313
+  m_Intensity: 47.746483
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -112,7 +112,7 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 0
-  displayLightIntensity: 600.4
+  displayLightIntensity: 600
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.1
@@ -176,11 +176,11 @@ GameObject:
   - component: {fileID: 8444956517626313137}
   - component: {fileID: 8444956517626313141}
   - component: {fileID: 8444956517626313143}
-  - component: {fileID: 1689497332586345563}
-  - component: {fileID: 3840248261667360322}
-  - component: {fileID: 2507413943392713842}
+  - component: {fileID: 7834108026566510992}
+  - component: {fileID: 7916183871231200485}
+  - component: {fileID: 5259636433265753270}
   m_Layer: 0
-  m_Name: CelestialSphere 1
+  m_Name: CelestialSphere 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -193,14 +193,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517626313146}
-  m_LocalRotation: {x: -0.7073536, y: 0, z: 0, w: 0.70685995}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8444956517467896715}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90.04, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!54 &8444956517626313141
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -229,10 +229,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b776a37674c424d9fd1c374519ec0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetType: {fileID: 11400000, guid: 8b1825ed08968474882c03fdb4aaad24, type: 2}
+  TargetType: {fileID: 11400000, guid: 57d6d1e67d97b6b479dfa5eab739ba5f, type: 2}
   FullSizeDistance: 10
   TheLight: {fileID: 8444956517467896708}
---- !u!23 &1689497332586345563
+--- !u!33 &7834108026566510992
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444956517626313146}
+  m_Mesh: {fileID: 4300000, guid: 794e3bdac71813147b38109baf6f2466, type: 3}
+--- !u!23 &7916183871231200485
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -249,7 +257,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: aa636e203986b6a4badbca3df7272b1a, type: 2}
+  - {fileID: 2100000, guid: 490c912d8c6d73149a8092d4874616c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -269,15 +277,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &3840248261667360322
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8444956517626313146}
-  m_Mesh: {fileID: 4300000, guid: 96fd824155958b942b2e3090c1e4c8c8, type: 3}
---- !u!64 &2507413943392713842
+--- !u!64 &5259636433265753270
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -290,4 +290,4 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 96fd824155958b942b2e3090c1e4c8c8, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 794e3bdac71813147b38109baf6f2466, type: 3}
