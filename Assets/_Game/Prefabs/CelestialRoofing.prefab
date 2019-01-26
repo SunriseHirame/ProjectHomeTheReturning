@@ -229,9 +229,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b776a37674c424d9fd1c374519ec0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetType: {fileID: 11400000, guid: 8b1825ed08968474882c03fdb4aaad24, type: 2}
   FullSizeDistance: 10
   TheLight: {fileID: 8444956517467896708}
+  CollectionEffect: {fileID: 0}
+  TargetType:
+  - Type: {fileID: 11400000, guid: 8b1825ed08968474882c03fdb4aaad24, type: 2}
+    Value: 0
 --- !u!33 &1171735883620514370
 MeshFilter:
   m_ObjectHideFlags: 0

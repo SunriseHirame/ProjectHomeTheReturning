@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8444956517467896715
 Transform:
   m_ObjectHideFlags: 0
@@ -174,12 +174,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8444956517626313137}
-  - component: {fileID: 8444956517626313140}
   - component: {fileID: 8444956517626313141}
   - component: {fileID: 8444956517626313143}
   - component: {fileID: 7531609217795662154}
   - component: {fileID: 564583025234564304}
-  - component: {fileID: 6508889969307548994}
+  - component: {fileID: 8933202288720460859}
   m_Layer: 0
   m_Name: CelestialPlank
   m_TagString: Untagged
@@ -202,19 +201,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!135 &8444956517626313140
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8444956517626313146}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Radius: 0.1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8444956517626313141
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -243,9 +229,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b776a37674c424d9fd1c374519ec0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetType: {fileID: 11400000, guid: 8b1825ed08968474882c03fdb4aaad24, type: 2}
   FullSizeDistance: 10
   TheLight: {fileID: 8444956517467896708}
+  CollectionEffect: {fileID: 0}
+  TargetType:
+  - Type: {fileID: 11400000, guid: 8b1825ed08968474882c03fdb4aaad24, type: 2}
+    Value: 1
 --- !u!33 &7531609217795662154
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -291,8 +280,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &6508889969307548994
-MeshCollider:
+--- !u!65 &8933202288720460859
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -301,7 +290,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: ae34228aa07b7a24e931f91012926238, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.02935591, y: 0.11797421, z: 0.01798561}
+  m_Center: {x: 0, y: 0, z: 0}

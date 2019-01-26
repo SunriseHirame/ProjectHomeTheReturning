@@ -219,8 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77e01241cd2c164482cb14b11f3a5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SimultaneousObjects: 350
-  GenerationRadius: 60
+  SimultaneousObjects: 60
+  GenerationRadius: 40
   MagnetismDistance: 4
   MagnetismSpeed: 4
   CelestialObjects: {fileID: 11400000, guid: df93a837b6b59f04f820b9817e22324d, type: 2}
@@ -651,7 +651,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373973668}
-  m_LocalRotation: {x: -0.09520546, y: 0.00000001712703, z: 0.0000000016256373, w: 0.9954577}
+  m_LocalRotation: {x: -0.09520546, y: -0.000000017129421, z: -0.0000000016506458,
+    w: 0.9954577}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5543,7 +5544,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: -0.09520547, y: 0.00000003425645, z: 0.0000000032762832, w: 0.99545765}
+  m_LocalRotation: {x: -0.09520547, y: -0.00000003425645, z: -0.0000000032762832,
+    w: 0.99545765}
   m_LocalPosition: {x: 0, y: 0, z: -4.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5585,7 +5587,7 @@ MonoBehaviour:
     m_Bits: 256
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 1
-  antialiasingMode: 0
+  antialiasingMode: 3
   temporalAntialiasing:
     jitterSpread: 0.75
     sharpness: 0.25
@@ -7395,7 +7397,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480539007}
-  m_LocalRotation: {x: -0.07708284, y: -4.2411384e-32, z: 5.472097e-31, w: 0.9970247}
+  m_LocalRotation: {x: -0.07708284, y: -4.2712457e-32, z: 5.472097e-31, w: 0.9970247}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -13081,7 +13083,7 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 0
-  displayLightIntensity: 850
+  displayLightIntensity: 640
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.1
@@ -13100,7 +13102,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 67.64085
+  m_Intensity: 50.92958
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10

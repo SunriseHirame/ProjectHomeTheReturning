@@ -29,7 +29,7 @@ namespace Game
             for (var i = 0; i < SimultaneousObjects; i++)
             {
                 var position = origin + Random.insideUnitSphere * GenerationRadius;
-                var co = Instantiate (CelestialObjects.GetRandom (), position, Quaternion.identity, transform);                
+                var co = Instantiate (CelestialObjects.GetRandom (), position, Random.rotation, transform);                
                 generatedObjects.Add (co);
             }
         }
