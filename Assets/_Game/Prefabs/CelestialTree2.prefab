@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517467896712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.059, y: -0, z: 0.128}
+  m_LocalPosition: {x: 0, y: -0, z: 2.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8444956517626313137}
@@ -43,8 +43,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 0.21568625, g: 0.98039216, b: 0.31323662, a: 1}
-  m_Intensity: 238.7324
+  m_Color: {r: 0.8159487, g: 0.8702358, b: 0.9056604, a: 1}
+  m_Intensity: 477.4648
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -112,7 +112,7 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 0
-  displayLightIntensity: 3000
+  displayLightIntensity: 6000
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.1
@@ -174,13 +174,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8444956517626313137}
+  - component: {fileID: 8444956517626313140}
   - component: {fileID: 8444956517626313141}
   - component: {fileID: 8444956517626313143}
-  - component: {fileID: 7834108026566510992}
-  - component: {fileID: 7916183871231200485}
-  - component: {fileID: 7574843678007542354}
+  - component: {fileID: 1455743943797593173}
+  - component: {fileID: 7474259572408113761}
+  - component: {fileID: 5208480346411637076}
   m_Layer: 0
-  m_Name: CelestialTeapot
+  m_Name: CelestialTree2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -193,14 +194,27 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517626313146}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071685, y: 0, z: 0, w: 0.7070451}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8444956517467896715}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.01, y: 0, z: 0}
+--- !u!135 &8444956517626313140
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444956517626313146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8444956517626313141
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -229,20 +243,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b776a37674c424d9fd1c374519ec0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TargetType: {fileID: 11400000, guid: 57d6d1e67d97b6b479dfa5eab739ba5f, type: 2}
   FullSizeDistance: 10
   TheLight: {fileID: 8444956517467896708}
-  TargetType:
-  - Type: {fileID: 11400000, guid: 57d6d1e67d97b6b479dfa5eab739ba5f, type: 2}
-    Value: 1
---- !u!33 &7834108026566510992
+--- !u!33 &1455743943797593173
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517626313146}
-  m_Mesh: {fileID: 4300000, guid: 794e3bdac71813147b38109baf6f2466, type: 3}
---- !u!23 &7916183871231200485
+  m_Mesh: {fileID: 4300000, guid: d1df224feb96a2840984241fee9de625, type: 3}
+--- !u!23 &7474259572408113761
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -259,7 +271,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 490c912d8c6d73149a8092d4874616c0, type: 2}
+  - {fileID: 2100000, guid: 731643bc3de06ac4b8d2bc6758ec3b29, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -279,8 +291,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!135 &7574843678007542354
-SphereCollider:
+--- !u!64 &5208480346411637076
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -289,6 +301,7 @@ SphereCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.35
-  m_Center: {x: -0.027006194, y: 0, z: 0.19870235}
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: d1df224feb96a2840984241fee9de625, type: 3}
