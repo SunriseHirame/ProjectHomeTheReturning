@@ -5,7 +5,7 @@ namespace Game
 {
     public class CelestialObject : MonoBehaviour
     {             
-        public float FullSizeDistance;    
+        private float fullSizeDistance = 10;    
         public Light TheLight;
 
         public GameObject CollectionEffect;
@@ -31,7 +31,7 @@ namespace Game
         {
             var direction = player.AttachedRigidbody.position - attachedTransform.position;
             var sqrDistanceToPlayer = direction.sqrMagnitude;
-            var sqrFullDistance = FullSizeDistance * FullSizeDistance;     
+            var sqrFullDistance = fullSizeDistance * fullSizeDistance;     
             var t = Mathf.Clamp01 (sqrFullDistance / sqrDistanceToPlayer);   
             
             attachedTransform.localScale =  Vector3.Lerp (Vector3.zero, targetSize, t);
@@ -52,7 +52,7 @@ namespace Game
 
         private void SpawnCollectionEffect ()
         {
-            Instantiate (CollectionEffect, attachedTransform.position, Quaternion.identity);
+            Instantiate (CollectionEffect, attachedTransform.position, attachedTransform.rotation);
         }
         
         [System.Serializable]

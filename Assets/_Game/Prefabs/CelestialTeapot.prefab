@@ -229,8 +229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b776a37674c424d9fd1c374519ec0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FullSizeDistance: 10
   TheLight: {fileID: 8444956517467896708}
+  CollectionEffect: {fileID: 6966368216364032112, guid: e733cc01c7722054a8e237ab32ec8cc8,
+    type: 3}
   TargetType:
   - Type: {fileID: 11400000, guid: 57d6d1e67d97b6b479dfa5eab739ba5f, type: 2}
     Value: 1

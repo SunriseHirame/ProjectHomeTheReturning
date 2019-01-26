@@ -230,7 +230,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FullSizeDistance: 10
   TheLight: {fileID: 8444956517467896708}
-  CollectionEffect: {fileID: 0}
+  CollectionEffect: {fileID: 824986063076783099, guid: b4687db34b5baa64d84dbb6e20b630c5,
+    type: 3}
   TargetType:
   - Type: {fileID: 11400000, guid: 8b1825ed08968474882c03fdb4aaad24, type: 2}
     Value: 1
