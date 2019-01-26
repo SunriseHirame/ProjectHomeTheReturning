@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 8444956517626313143}
   - component: {fileID: 1689497332586345563}
   - component: {fileID: 3840248261667360322}
-  - component: {fileID: 2507413943392713842}
+  - component: {fileID: 2813430343409889860}
   m_Layer: 0
   m_Name: CelestialSphere 1
   m_TagString: Untagged
@@ -279,8 +279,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517626313146}
   m_Mesh: {fileID: 4300000, guid: 96fd824155958b942b2e3090c1e4c8c8, type: 3}
---- !u!64 &2507413943392713842
-MeshCollider:
+--- !u!65 &2813430343409889860
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -289,7 +289,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 96fd824155958b942b2e3090c1e4c8c8, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.05134318, y: 0.04406666, z: 0.38132095}
+  m_Center: {x: -0.0036061918, y: 0.0047128205, z: 0.19066048}

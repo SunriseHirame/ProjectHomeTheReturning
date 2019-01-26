@@ -47,7 +47,7 @@ namespace Game
 
                 if (sqrDistance > maxDistance)
                 {
-                    MoveToNewPosition (obj);
+                    MoveToNewPosition (in playerPosition, obj);
                     continue;
                 }
 
@@ -65,9 +65,9 @@ namespace Game
         }
         
         [MethodImpl (MethodImplOptions.AggressiveInlining)]
-        private void MoveToNewPosition (Transform t)
+        private void MoveToNewPosition (in Vector3 center, Transform t)
         {
-            t.position = Random.onUnitSphere * GenerationRadius;
+            t.position = center + Random.onUnitSphere * GenerationRadius;
             t.gameObject.SetActive (true);
         }
     }

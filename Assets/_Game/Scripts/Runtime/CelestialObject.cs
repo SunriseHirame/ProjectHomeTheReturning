@@ -4,10 +4,11 @@ using Hirame.Minerva;
 namespace Game
 {
     public class CelestialObject : MonoBehaviour
-    {
-             
+    {             
         public float FullSizeDistance;    
         public Light TheLight;
+
+        public GameObject CollectionEffect;
         
         private Vector3 targetSize;
         private float lightIntensity;
@@ -44,6 +45,14 @@ namespace Game
                 TargetType[i].Collect ();
             }
             gameObject.SetActive (false);
+
+            if (CollectionEffect != null)
+                SpawnCollectionEffect ();
+        }
+
+        private void SpawnCollectionEffect ()
+        {
+            Instantiate (CollectionEffect, attachedTransform.position, Quaternion.identity);
         }
         
         [System.Serializable]

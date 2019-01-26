@@ -178,9 +178,9 @@ GameObject:
   - component: {fileID: 8444956517626313143}
   - component: {fileID: 5289488220027259975}
   - component: {fileID: 6973040229288015708}
-  - component: {fileID: 4329940058286274852}
+  - component: {fileID: 4997830574132825595}
   m_Layer: 0
-  m_Name: CelestialSphere 4
+  m_Name: CelestialTwig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -229,9 +229,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44b776a37674c424d9fd1c374519ec0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetType: {fileID: 11400000, guid: 8b1825ed08968474882c03fdb4aaad24, type: 2}
   FullSizeDistance: 10
   TheLight: {fileID: 8444956517467896708}
+  TargetType:
+  - Type: {fileID: 11400000, guid: 57d6d1e67d97b6b479dfa5eab739ba5f, type: 2}
+    Value: 1
 --- !u!33 &5289488220027259975
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -277,8 +279,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4329940058286274852
-MeshCollider:
+--- !u!65 &4997830574132825595
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -287,7 +289,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: ece81efe9e0823740b6959dc03a21caf, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.03045009, y: 0.46384788, z: 0.0377207}
+  m_Center: {x: 0, y: 0, z: 0}

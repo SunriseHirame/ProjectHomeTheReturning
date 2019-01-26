@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 8444956517626313143}
   - component: {fileID: 877106308346905313}
   - component: {fileID: 8462211809600202120}
-  - component: {fileID: 7739846508531661815}
+  - component: {fileID: 2930262960754804311}
   m_Layer: 0
   m_Name: CelestialSphere 2
   m_TagString: Untagged
@@ -232,7 +232,7 @@ MonoBehaviour:
   FullSizeDistance: 10
   TheLight: {fileID: 8444956517467896708}
   TargetType:
-  - Type: {fileID: 11400000, guid: 8b1825ed08968474882c03fdb4aaad24, type: 2}
+  - Type: {fileID: 11400000, guid: a556ac125c5516d40bd8bdd6b355fac9, type: 2}
     Value: 1
 --- !u!33 &877106308346905313
 MeshFilter:
@@ -279,8 +279,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7739846508531661815
-MeshCollider:
+--- !u!135 &2930262960754804311
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -289,7 +289,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300010, guid: 78d86f01e4f0cdb4a81c53c0be3d2e04, type: 3}
+  serializedVersion: 2
+  m_Radius: 0.33
+  m_Center: {x: 0, y: -0.000000014901165, z: 0.3039586}
