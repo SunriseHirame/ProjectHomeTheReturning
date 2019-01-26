@@ -1,11 +1,12 @@
 {
-    "name": "Game.Runtime",
+    "name": "Hirame.Portunus.Editor",
     "references": [
-        "Hirame.Minerva",
-        "Unity.TextMeshPro"
+        "Hirame.Portunus"
     ],
     "optionalUnityReferences": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

@@ -1,9 +1,6 @@
 {
-    "name": "Game.Runtime",
-    "references": [
-        "Hirame.Minerva",
-        "Unity.TextMeshPro"
-    ],
+    "name": "Hirame.Portunus",
+    "references": [],
     "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
