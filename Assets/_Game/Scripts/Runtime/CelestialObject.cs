@@ -1,21 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Game;
-using UnityEngine;
+﻿using UnityEngine;
 using Hirame.Minerva;
 
 namespace Game
 {
     public class CelestialObject : MonoBehaviour
-    {
-        public GlobalInt TargetType;
-        
+    {             
         public float FullSizeDistance;    
         public Light TheLight;
+
+        public GameObject CollectionEffect;
         
         private Vector3 targetSize;
         private float lightIntensity;
-    
+        
+        public EssenceValue[] TargetType;
+     
         private PlayerController player;
     
         private Transform attachedTransform;
@@ -41,8 +40,31 @@ namespace Game
 
         private void OnTriggerEnter (Collider other)
         {
-            TargetType.RuntimeValue += 1;
+            for (var i = 0; i < TargetType.Length; i++)
+            {
+                TargetType[i].Collect ();
+            }
             gameObject.SetActive (false);
+
+            if (CollectionEffect != null)
+                SpawnCollectionEffect ();
+        }
+
+        private void SpawnCollectionEffect ()
+        {
+            Instantiate (CollectionEffect, attachedTransform.position, Quaternion.identity);
+        }
+        
+        [System.Serializable]
+        public struct EssenceValue
+        {
+            public GlobalInt Type;
+            public int Value;
+
+            public void Collect ()
+            {
+                Type.RuntimeValue += Value;
+            }
         }
     }
 
