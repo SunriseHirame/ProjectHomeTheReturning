@@ -636,7 +636,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373973668}
-  m_LocalRotation: {x: -0.018189488, y: 0.000000017203504, z: 3.1104264e-10, w: 0.9998346}
+  m_LocalRotation: {x: -0.018189488, y: 0.000000017203263, z: 2.9782593e-10, w: 0.9998346}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5417,7 +5417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: f087e7d1d4cf84340a9300d1296020c9, type: 2}
-  m_BakingSkyUniqueID: 2
+  m_BakingSkyUniqueID: 0
 --- !u!114 &488200696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6141,7 +6141,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958299886}
-  m_LocalRotation: {x: -0.03632495, y: 0.000000017328844, z: 6.2988464e-10, w: 0.99934006}
+  m_LocalRotation: {x: -0.03632495, y: -0.00000001732884, z: -6.298854e-10, w: 0.99934006}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
