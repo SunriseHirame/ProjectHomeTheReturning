@@ -11,9 +11,9 @@ namespace Game
 
         public float MagnetismDistance = 10f;
         public float MagnetismSpeed = 1f;
-        
-        public Transform[] CelestialObjects;
 
+        public AssetList CelestialObjects;
+        
         private readonly List<Transform> generatedObjects = new List<Transform> (1024);
         private Transform attachedTransform;
         private Transform playerTransform;
@@ -29,7 +29,7 @@ namespace Game
             for (var i = 0; i < SimultaneousObjects; i++)
             {
                 var position = origin + Random.insideUnitSphere * GenerationRadius;
-                var co = Instantiate (CelestialObjects[0], position, Quaternion.identity, transform);                
+                var co = Instantiate (CelestialObjects.GetRandom (), position, Quaternion.identity, transform);                
                 generatedObjects.Add (co);
             }
         }

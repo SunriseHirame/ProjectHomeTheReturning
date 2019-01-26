@@ -8,7 +8,7 @@ namespace Hirame.Minerva.Editor
     /// <summary>
     /// A super Minimal base drawer that hides the annoying script field.
     /// </summary>
-    [CustomEditor (typeof (UnityEngine.Object), true)]
+    //[CustomEditor (typeof (UnityEngine.Object), true)]
     public class MinervaEditorBase : UnityEditor.Editor
     {
         private readonly HashSet<string> dontDrawSet = new HashSet<string> {"m_Script"};

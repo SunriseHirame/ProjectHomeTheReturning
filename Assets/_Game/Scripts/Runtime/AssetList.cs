@@ -1,18 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class AssetList : MonoBehaviour
+namespace Game
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    
+    [CreateAssetMenu (menuName = "Game/Asset List")]
+    public class AssetList : ScriptableObject
     {
-        
+        public Transform[] Assets;
+
+        public Transform GetRandom ()
+        {
+            return Assets[Random.Range (0, Assets.Length)];
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
