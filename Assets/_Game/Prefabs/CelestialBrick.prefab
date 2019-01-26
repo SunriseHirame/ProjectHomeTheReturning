@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8444956517467896715
 Transform:
   m_ObjectHideFlags: 0
@@ -43,7 +43,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 0.21751513, g: 0.6770713, b: 0.9811321, a: 1}
+  m_Color: {r: 0.98039216, g: 0.9700528, b: 0.21568625, a: 1}
   m_Intensity: 47.746483
   m_Range: 10
   m_SpotAngle: 30
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 7764864754306862982}
   - component: {fileID: 5279206145603303339}
   m_Layer: 0
-  m_Name: CelestialSphere 3
+  m_Name: CelestialBrick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
