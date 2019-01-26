@@ -19,14 +19,18 @@ namespace Game
     
         private Transform attachedTransform;
         
-        private void Start ()
+        private void Awake ()
         {
             attachedTransform = transform;
             targetSize = attachedTransform.localScale;
+        }
+
+        private void Start()
+        {
             player = PlayerController.Player;
             lightIntensity = TheLight.intensity;
         }
-    
+
         private void Update ()
         {
             var direction = player.AttachedRigidbody.position - attachedTransform.position;

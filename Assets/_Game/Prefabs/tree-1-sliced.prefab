@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 316302827508771724}
   - component: {fileID: 8784556034006950943}
   - component: {fileID: 421159569060190617}
+  - component: {fileID: 5010846029239215522}
   m_Layer: 0
   m_Name: Foliage001_Part_1
   m_TagString: Untagged
@@ -94,6 +95,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5010846029239215522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526798128083006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &17877342705153308
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,6 +123,7 @@ GameObject:
   - component: {fileID: 6583837944439352536}
   - component: {fileID: 3979262429201388272}
   - component: {fileID: 98906862078016}
+  - component: {fileID: 182565829045948716}
   m_Layer: 0
   m_Name: Foliage001_Part_12
   m_TagString: Untagged
@@ -188,6 +206,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &182565829045948716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17877342705153308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &59718845550697618
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +234,7 @@ GameObject:
   - component: {fileID: 2582622710713442248}
   - component: {fileID: 6875752854447087277}
   - component: {fileID: 3310466400515996111}
+  - component: {fileID: 5430333324278449188}
   m_Layer: 0
   m_Name: Foliage001_Part_20
   m_TagString: Untagged
@@ -282,6 +317,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5430333324278449188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59718845550697618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &195087055572504099
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5804452121652901485}
   - component: {fileID: 2362157398477229967}
+  - component: {fileID: 4486700686989316895}
   m_Layer: 0
   m_Name: Foliage001_Part_3
   m_TagString: Untagged
@@ -329,6 +381,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4486700686989316895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195087055572504099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &253358002333471448
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,6 +409,7 @@ GameObject:
   - component: {fileID: 1136100518514441812}
   - component: {fileID: 7624322708657690915}
   - component: {fileID: 71334697325671122}
+  - component: {fileID: 8331906107211410652}
   m_Layer: 0
   m_Name: Foliage001_Part_16
   m_TagString: Untagged
@@ -423,6 +492,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8331906107211410652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253358002333471448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &519586840901830952
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,6 +520,7 @@ GameObject:
   - component: {fileID: 8960946937607920105}
   - component: {fileID: 1851717685759619579}
   - component: {fileID: 366521158686217623}
+  - component: {fileID: 7076318865254653321}
   m_Layer: 0
   m_Name: Foliage001_Part_6
   m_TagString: Untagged
@@ -517,6 +603,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7076318865254653321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519586840901830952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &993547336668146503
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +631,7 @@ GameObject:
   - component: {fileID: 8962413307275499123}
   - component: {fileID: 2899225478472011505}
   - component: {fileID: 4293837151111368556}
+  - component: {fileID: 1589418041952498260}
   m_Layer: 0
   m_Name: Foliage001_Part_8
   m_TagString: Untagged
@@ -611,6 +714,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1589418041952498260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993547336668146503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &1084704521027029366
 GameObject:
   m_ObjectHideFlags: 0
@@ -623,6 +742,7 @@ GameObject:
   - component: {fileID: 6648031602562099010}
   - component: {fileID: 1019773649078628174}
   - component: {fileID: 5819820023845202135}
+  - component: {fileID: 6617749021998791830}
   m_Layer: 0
   m_Name: Foliage001_Part_22
   m_TagString: Untagged
@@ -705,6 +825,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6617749021998791830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084704521027029366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &1415206271757737189
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,6 +851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2826376925667944427}
   - component: {fileID: 4789089485160570460}
+  - component: {fileID: 2158737475435521914}
   m_Layer: 0
   m_Name: Foliage001_Part_39
   m_TagString: Untagged
@@ -752,6 +889,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2158737475435521914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415206271757737189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &1587504760421343319
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,6 +1083,7 @@ GameObject:
   - component: {fileID: 7150837250244522256}
   - component: {fileID: 4088059291697931838}
   - component: {fileID: 3053303371145759575}
+  - component: {fileID: 3157400022784549709}
   m_Layer: 0
   m_Name: Foliage001_Part_35
   m_TagString: Untagged
@@ -1012,6 +1166,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3157400022784549709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997620945080380837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &2329793109124191718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1194,7 @@ GameObject:
   - component: {fileID: 3476133585394579920}
   - component: {fileID: 3592661305027813784}
   - component: {fileID: 5274246322946323161}
+  - component: {fileID: 2020029615768115068}
   m_Layer: 0
   m_Name: Foliage001_Part_23
   m_TagString: Untagged
@@ -1106,6 +1277,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2020029615768115068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2329793109124191718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &2577231787900852817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +1305,7 @@ GameObject:
   - component: {fileID: 8600089640931988766}
   - component: {fileID: 3352607995618863682}
   - component: {fileID: 3720899751080613267}
+  - component: {fileID: 36664016755199350}
   m_Layer: 0
   m_Name: Foliage001_Part_34
   m_TagString: Untagged
@@ -1200,6 +1388,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &36664016755199350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2577231787900852817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &2801502462780460821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,6 +1416,7 @@ GameObject:
   - component: {fileID: 3531654169201087507}
   - component: {fileID: 627149024004850312}
   - component: {fileID: 5406719873618960618}
+  - component: {fileID: 1777966199871587615}
   m_Layer: 0
   m_Name: Foliage001_Part_38
   m_TagString: Untagged
@@ -1294,6 +1499,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1777966199871587615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2801502462780460821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &2843058465095982006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1306,6 +1527,7 @@ GameObject:
   - component: {fileID: 2419482594511158838}
   - component: {fileID: 7079568762462885853}
   - component: {fileID: 9040547473160002001}
+  - component: {fileID: 8747340481555616296}
   m_Layer: 0
   m_Name: Foliage001_Part_26
   m_TagString: Untagged
@@ -1388,6 +1610,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8747340481555616296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2843058465095982006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3205542129025851263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,6 +1638,7 @@ GameObject:
   - component: {fileID: 4203813927453350700}
   - component: {fileID: 602478737411852639}
   - component: {fileID: 3882112938154024845}
+  - component: {fileID: 61548887568759015}
   m_Layer: 0
   m_Name: Foliage001_Part_44
   m_TagString: Untagged
@@ -1482,6 +1721,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &61548887568759015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3205542129025851263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3400526405970305684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1494,6 +1749,7 @@ GameObject:
   - component: {fileID: 6162187356807807590}
   - component: {fileID: 686052047298885128}
   - component: {fileID: 3907418729644554738}
+  - component: {fileID: 7894841711858067441}
   m_Layer: 0
   m_Name: Foliage001_Part_31
   m_TagString: Untagged
@@ -1576,6 +1832,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7894841711858067441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3400526405970305684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3452270362702730653
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,6 +1860,7 @@ GameObject:
   - component: {fileID: 7920723475383618965}
   - component: {fileID: 4704039597485591136}
   - component: {fileID: 5539777220766410788}
+  - component: {fileID: 7708777139808913745}
   m_Layer: 0
   m_Name: Foliage001_Part_15
   m_TagString: Untagged
@@ -1670,6 +1943,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7708777139808913745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3452270362702730653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3457870372915705656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,6 +1971,7 @@ GameObject:
   - component: {fileID: 5811397490261115681}
   - component: {fileID: 3532987443650715756}
   - component: {fileID: 7469752605902714612}
+  - component: {fileID: 7109285480647355945}
   m_Layer: 0
   m_Name: Foliage001_Part_37
   m_TagString: Untagged
@@ -1764,6 +2054,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7109285480647355945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457870372915705656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3480464028389216027
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,6 +2082,7 @@ GameObject:
   - component: {fileID: 5874402728854490580}
   - component: {fileID: 8214284825214463352}
   - component: {fileID: 7150705049407013445}
+  - component: {fileID: 7491605975498342338}
   m_Layer: 0
   m_Name: Foliage001_Part_41
   m_TagString: Untagged
@@ -1858,6 +2165,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7491605975498342338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3480464028389216027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3642715649756613713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,6 +2193,7 @@ GameObject:
   - component: {fileID: 9100233556592476392}
   - component: {fileID: 636168506120686263}
   - component: {fileID: 7659514341911448983}
+  - component: {fileID: 3015850971211902999}
   m_Layer: 0
   m_Name: Foliage001_Part_42
   m_TagString: Untagged
@@ -1952,6 +2276,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3015850971211902999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3642715649756613713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3832392193296875028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,6 +2302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7632067424575279293}
   - component: {fileID: 1252435418192615238}
+  - component: {fileID: 2174723856675521204}
   m_Layer: 0
   m_Name: Foliage001_Part_40
   m_TagString: Untagged
@@ -1999,6 +2340,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2174723856675521204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832392193296875028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3968523496783060376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2011,6 +2368,7 @@ GameObject:
   - component: {fileID: 6615450124764704106}
   - component: {fileID: 5913742265016803117}
   - component: {fileID: 6525598721518445040}
+  - component: {fileID: 3358488610192388735}
   m_Layer: 0
   m_Name: Foliage001_Part_27
   m_TagString: Untagged
@@ -2093,6 +2451,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3358488610192388735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3968523496783060376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &4213963574170407623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,6 +2479,7 @@ GameObject:
   - component: {fileID: 9109482244489731638}
   - component: {fileID: 44904125458781708}
   - component: {fileID: 5416475576557576427}
+  - component: {fileID: 7490979108250997228}
   m_Layer: 0
   m_Name: Foliage001_Part_14
   m_TagString: Untagged
@@ -2187,6 +2562,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7490979108250997228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4213963574170407623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &4239967093105715074
 GameObject:
   m_ObjectHideFlags: 0
@@ -2197,6 +2588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046268036939417076}
   - component: {fileID: 2326375240773224200}
+  - component: {fileID: 6475688354457579345}
   m_Layer: 0
   m_Name: Foliage001_Part_2
   m_TagString: Untagged
@@ -2234,6 +2626,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6475688354457579345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4239967093105715074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &4830436141037727553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2244,6 +2652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4064068699256029127}
   - component: {fileID: 1419624932681914698}
+  - component: {fileID: 9127541024841145296}
   m_Layer: 0
   m_Name: Foliage001_Part_4
   m_TagString: Untagged
@@ -2281,6 +2690,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9127541024841145296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4830436141037727553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5009319189256495562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,6 +2718,7 @@ GameObject:
   - component: {fileID: 1499991201801570669}
   - component: {fileID: 2975710968637669187}
   - component: {fileID: 4286389838398285242}
+  - component: {fileID: 5739696111196824541}
   m_Layer: 0
   m_Name: Foliage001_Part_24
   m_TagString: Untagged
@@ -2375,6 +2801,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5739696111196824541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5009319189256495562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5090641304457503755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2387,6 +2829,7 @@ GameObject:
   - component: {fileID: 3748135924342102516}
   - component: {fileID: 1561233324221875421}
   - component: {fileID: 5855000284162725209}
+  - component: {fileID: 65678593556305050}
   m_Layer: 0
   m_Name: Foliage001_Part_19
   m_TagString: Untagged
@@ -2469,6 +2912,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &65678593556305050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5090641304457503755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5146675674459686462
 GameObject:
   m_ObjectHideFlags: 0
@@ -2479,6 +2938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4781182009870654149}
   - component: {fileID: 7694575046074652141}
+  - component: {fileID: 8336974617573693298}
   m_Layer: 0
   m_Name: Foliage001_Part_7
   m_TagString: Untagged
@@ -2516,6 +2976,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8336974617573693298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5146675674459686462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5321498923112238592
 GameObject:
   m_ObjectHideFlags: 0
@@ -2528,6 +3004,7 @@ GameObject:
   - component: {fileID: 3428710954826955534}
   - component: {fileID: 8665074758373558024}
   - component: {fileID: 5462763482795252493}
+  - component: {fileID: 143885502946067054}
   m_Layer: 0
   m_Name: Foliage001_Part_36
   m_TagString: Untagged
@@ -2610,6 +3087,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &143885502946067054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5321498923112238592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5427067390608055053
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,6 +3115,7 @@ GameObject:
   - component: {fileID: 2302768533356967879}
   - component: {fileID: 5660345712819154725}
   - component: {fileID: 2999955931198044346}
+  - component: {fileID: 5006165608884512665}
   m_Layer: 0
   m_Name: Foliage001_Part_45
   m_TagString: Untagged
@@ -2704,6 +3198,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5006165608884512665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5427067390608055053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5548958785750855396
 GameObject:
   m_ObjectHideFlags: 0
@@ -2716,6 +3226,7 @@ GameObject:
   - component: {fileID: 6485420693122126632}
   - component: {fileID: 452244747652912089}
   - component: {fileID: 8323003064765868091}
+  - component: {fileID: 6429456299700373876}
   m_Layer: 0
   m_Name: Foliage001_Part_11
   m_TagString: Untagged
@@ -2798,6 +3309,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6429456299700373876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5548958785750855396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5629275334453559434
 GameObject:
   m_ObjectHideFlags: 0
@@ -2810,6 +3337,7 @@ GameObject:
   - component: {fileID: 5091392332569372502}
   - component: {fileID: 440149345660479893}
   - component: {fileID: 8108897980459648464}
+  - component: {fileID: 328548832858794413}
   m_Layer: 0
   m_Name: Foliage001_Part_18
   m_TagString: Untagged
@@ -2892,6 +3420,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &328548832858794413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5629275334453559434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5823482739150573875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2904,6 +3448,7 @@ GameObject:
   - component: {fileID: 2404512741744406344}
   - component: {fileID: 4791336918322037350}
   - component: {fileID: 8258360665341448049}
+  - component: {fileID: 8035799687228919251}
   m_Layer: 0
   m_Name: Foliage001_Part_21
   m_TagString: Untagged
@@ -2986,6 +3531,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8035799687228919251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5823482739150573875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5962439042303301882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2998,6 +3559,7 @@ GameObject:
   - component: {fileID: 3913660230546553926}
   - component: {fileID: 43095411557800717}
   - component: {fileID: 6869470427683044245}
+  - component: {fileID: 1104237194432745264}
   m_Layer: 0
   m_Name: Foliage001_Part_28
   m_TagString: Untagged
@@ -3080,6 +3642,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1104237194432745264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5962439042303301882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &6440501511024087212
 GameObject:
   m_ObjectHideFlags: 0
@@ -3092,6 +3670,7 @@ GameObject:
   - component: {fileID: 1570277209888894120}
   - component: {fileID: 3226506442161133772}
   - component: {fileID: 7960929311227982476}
+  - component: {fileID: 7755202856527647400}
   m_Layer: 0
   m_Name: Foliage001_Part_5
   m_TagString: Untagged
@@ -3174,6 +3753,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7755202856527647400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440501511024087212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &6565249772569655336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3186,6 +3781,7 @@ GameObject:
   - component: {fileID: 8696094266638591916}
   - component: {fileID: 3979330380764242491}
   - component: {fileID: 5810199641871746293}
+  - component: {fileID: 371018246730621787}
   m_Layer: 0
   m_Name: Foliage001_Part_33
   m_TagString: Untagged
@@ -3268,6 +3864,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &371018246730621787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6565249772569655336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &6777971121182668744
 GameObject:
   m_ObjectHideFlags: 0
@@ -3280,6 +3892,7 @@ GameObject:
   - component: {fileID: 2496759530259659451}
   - component: {fileID: 8812067285419283971}
   - component: {fileID: 7844011464092524188}
+  - component: {fileID: 4479312089950304231}
   m_Layer: 0
   m_Name: Foliage001_Part_30
   m_TagString: Untagged
@@ -3362,6 +3975,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4479312089950304231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6777971121182668744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &7288900963287778863
 GameObject:
   m_ObjectHideFlags: 0
@@ -3374,6 +4003,7 @@ GameObject:
   - component: {fileID: 8405635099641975827}
   - component: {fileID: 2518734688766940779}
   - component: {fileID: 362553448068450126}
+  - component: {fileID: 1227774860266662134}
   m_Layer: 0
   m_Name: Foliage001_Part_43
   m_TagString: Untagged
@@ -3456,6 +4086,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1227774860266662134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7288900963287778863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &7771867837966762643
 GameObject:
   m_ObjectHideFlags: 0
@@ -3468,6 +4114,7 @@ GameObject:
   - component: {fileID: 8482924851410660683}
   - component: {fileID: 3141765251803623234}
   - component: {fileID: 8599053482365682177}
+  - component: {fileID: 6551423257483157141}
   m_Layer: 0
   m_Name: Foliage001_Part_9
   m_TagString: Untagged
@@ -3550,6 +4197,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6551423257483157141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7771867837966762643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &8059169337378738760
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,6 +4225,7 @@ GameObject:
   - component: {fileID: 7760213169818973103}
   - component: {fileID: 1653698960680403367}
   - component: {fileID: 656174474513722098}
+  - component: {fileID: 9000648673446119498}
   m_Layer: 0
   m_Name: Foliage001_Part_17
   m_TagString: Untagged
@@ -3644,6 +4308,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9000648673446119498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8059169337378738760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &8206786735080079317
 GameObject:
   m_ObjectHideFlags: 0
@@ -3656,6 +4336,7 @@ GameObject:
   - component: {fileID: 4613699757671994366}
   - component: {fileID: 157452735791579107}
   - component: {fileID: 2918577064023011117}
+  - component: {fileID: 3058519166027723711}
   m_Layer: 0
   m_Name: Foliage001_Part_25
   m_TagString: Untagged
@@ -3738,6 +4419,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3058519166027723711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8206786735080079317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &8275080890412445250
 GameObject:
   m_ObjectHideFlags: 0
@@ -3750,6 +4447,7 @@ GameObject:
   - component: {fileID: 4729459736141469402}
   - component: {fileID: 3077200234194609924}
   - component: {fileID: 9209631241182967988}
+  - component: {fileID: 8500547960838207223}
   m_Layer: 0
   m_Name: Foliage001_Part_13
   m_TagString: Untagged
@@ -3832,6 +4530,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8500547960838207223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8275080890412445250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &8471277776612878733
 GameObject:
   m_ObjectHideFlags: 0
@@ -3844,6 +4558,7 @@ GameObject:
   - component: {fileID: 4069755191154367947}
   - component: {fileID: 8109123439266662247}
   - component: {fileID: 4051390193289437091}
+  - component: {fileID: 5396439257070089792}
   m_Layer: 0
   m_Name: Foliage001_Part_29
   m_TagString: Untagged
@@ -3926,6 +4641,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5396439257070089792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8471277776612878733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &8778866172210806146
 GameObject:
   m_ObjectHideFlags: 0
@@ -3938,6 +4669,7 @@ GameObject:
   - component: {fileID: 503017528275026934}
   - component: {fileID: 5784821864388684025}
   - component: {fileID: 5005660160739146062}
+  - component: {fileID: 41378315586825551}
   m_Layer: 0
   m_Name: Foliage001_Part_10
   m_TagString: Untagged
@@ -4020,6 +4752,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &41378315586825551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8778866172210806146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &8811401128907036243
 GameObject:
   m_ObjectHideFlags: 0
@@ -4032,6 +4780,7 @@ GameObject:
   - component: {fileID: 1385166965159628414}
   - component: {fileID: 4672562564952120975}
   - component: {fileID: 6444824692320762183}
+  - component: {fileID: 2509188982768583463}
   m_Layer: 0
   m_Name: Foliage001_Part_32
   m_TagString: Untagged
@@ -4114,3 +4863,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2509188982768583463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8811401128907036243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2

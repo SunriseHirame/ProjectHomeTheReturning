@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1939616361068470058}
   - component: {fileID: 862170243273738985}
   - component: {fileID: 7182974692577583869}
+  - component: {fileID: 802952161995539266}
   m_Layer: 0
   m_Name: Teapot001_Part_12
   m_TagString: Untagged
@@ -94,6 +95,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &802952161995539266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470904983186882047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &515203163943262124
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,6 +123,7 @@ GameObject:
   - component: {fileID: 8640441984761855698}
   - component: {fileID: 7984021253322288193}
   - component: {fileID: 7243701073739925139}
+  - component: {fileID: 4775508047450347509}
   m_Layer: 0
   m_Name: Teapot001_Part_5
   m_TagString: Untagged
@@ -188,6 +206,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4775508047450347509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515203163943262124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &733789097290762069
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +234,7 @@ GameObject:
   - component: {fileID: 8036858481365754430}
   - component: {fileID: 1959261596144505662}
   - component: {fileID: 3360189463742314683}
+  - component: {fileID: 806313457498263303}
   m_Layer: 0
   m_Name: Teapot001_Part_8
   m_TagString: Untagged
@@ -282,6 +317,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &806313457498263303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733789097290762069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &1506420741235738962
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +345,7 @@ GameObject:
   - component: {fileID: 1180823681318343206}
   - component: {fileID: 4460932157728503346}
   - component: {fileID: 2155931657883537810}
+  - component: {fileID: 8032307391034481649}
   m_Layer: 0
   m_Name: Teapot001_Part_21
   m_TagString: Untagged
@@ -376,6 +428,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8032307391034481649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506420741235738962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &1569754882504107046
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +456,7 @@ GameObject:
   - component: {fileID: 5652804507249504451}
   - component: {fileID: 3545796642420579039}
   - component: {fileID: 6716933008128014070}
+  - component: {fileID: 5577343788530325202}
   m_Layer: 0
   m_Name: Teapot001_Part_15
   m_TagString: Untagged
@@ -470,6 +539,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5577343788530325202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569754882504107046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3345586908884787596
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +567,7 @@ GameObject:
   - component: {fileID: 5274637536318133327}
   - component: {fileID: 9149196143178279628}
   - component: {fileID: 4455350438736061191}
+  - component: {fileID: 7968145910562273728}
   m_Layer: 0
   m_Name: Teapot001_Part_25
   m_TagString: Untagged
@@ -564,6 +650,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7968145910562273728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3345586908884787596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3541922387319999996
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +678,7 @@ GameObject:
   - component: {fileID: 8433057219751564844}
   - component: {fileID: 3095413734083240953}
   - component: {fileID: 2359766793897399784}
+  - component: {fileID: 1876353476928865757}
   m_Layer: 0
   m_Name: Teapot001_Part_16
   m_TagString: Untagged
@@ -658,6 +761,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1876353476928865757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3541922387319999996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &3903393978352847114
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,6 +789,7 @@ GameObject:
   - component: {fileID: 3904223230250213121}
   - component: {fileID: 5797624145496076482}
   - component: {fileID: 3989006245801460150}
+  - component: {fileID: 6644675150807299507}
   m_Layer: 0
   m_Name: Teapot001_Part_13
   m_TagString: Untagged
@@ -752,6 +872,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6644675150807299507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3903393978352847114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &4242583092502430041
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,6 +900,7 @@ GameObject:
   - component: {fileID: 7069501915040320218}
   - component: {fileID: 7733704554056782179}
   - component: {fileID: 1986923634856856566}
+  - component: {fileID: 741758575053572626}
   m_Layer: 0
   m_Name: Teapot001_Part_9
   m_TagString: Untagged
@@ -846,6 +983,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &741758575053572626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4242583092502430041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &4418182567727102095
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,6 +1011,7 @@ GameObject:
   - component: {fileID: 2044995725489778116}
   - component: {fileID: 759022331560786046}
   - component: {fileID: 1726479415409728598}
+  - component: {fileID: 2357326077076761163}
   m_Layer: 0
   m_Name: Teapot001_Part_3
   m_TagString: Untagged
@@ -940,6 +1094,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2357326077076761163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4418182567727102095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &4451791614880912689
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,6 +1122,7 @@ GameObject:
   - component: {fileID: 1889872674894778564}
   - component: {fileID: 4814754864418848165}
   - component: {fileID: 6187092766108517976}
+  - component: {fileID: 8708531452461737500}
   m_Layer: 0
   m_Name: Teapot001_Part_10
   m_TagString: Untagged
@@ -1034,6 +1205,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8708531452461737500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4451791614880912689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &4751002867595064198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,6 +1233,7 @@ GameObject:
   - component: {fileID: 8389315798537673421}
   - component: {fileID: 2801095367029716446}
   - component: {fileID: 3386798026101594755}
+  - component: {fileID: 6756385154490877810}
   m_Layer: 0
   m_Name: Teapot001_Part_7
   m_TagString: Untagged
@@ -1128,6 +1316,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6756385154490877810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4751002867595064198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &4981901453795667964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,6 +1344,7 @@ GameObject:
   - component: {fileID: 7995851440773741416}
   - component: {fileID: 1314905974057614083}
   - component: {fileID: 1249133453501169528}
+  - component: {fileID: 1546101571916390543}
   m_Layer: 0
   m_Name: Teapot001_Part_14
   m_TagString: Untagged
@@ -1222,6 +1427,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1546101571916390543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4981901453795667964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5041134553718334178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,6 +1455,7 @@ GameObject:
   - component: {fileID: 1159172792228726353}
   - component: {fileID: 3140229118067522375}
   - component: {fileID: 7411574861771232085}
+  - component: {fileID: 2909153360158129155}
   m_Layer: 0
   m_Name: Teapot001_Part_4
   m_TagString: Untagged
@@ -1316,6 +1538,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2909153360158129155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5041134553718334178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &5971741574944252031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,6 +1566,7 @@ GameObject:
   - component: {fileID: 6539967646652521171}
   - component: {fileID: 326862119365318061}
   - component: {fileID: 7804471977448788337}
+  - component: {fileID: 2677338291567491291}
   m_Layer: 0
   m_Name: Teapot001_Part_24
   m_TagString: Untagged
@@ -1410,6 +1649,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2677338291567491291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5971741574944252031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &6168231426211616351
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,6 +1732,7 @@ GameObject:
   - component: {fileID: 457913952462673574}
   - component: {fileID: 3411102368625821497}
   - component: {fileID: 6797964775785433912}
+  - component: {fileID: 4846784073381831333}
   m_Layer: 0
   m_Name: Teapot001_Part_23
   m_TagString: Untagged
@@ -1559,6 +1815,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4846784073381831333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6709304810292112720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &6719907177337819169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,6 +1843,7 @@ GameObject:
   - component: {fileID: 6697036404805362695}
   - component: {fileID: 2024415049335231475}
   - component: {fileID: 3207868909069505037}
+  - component: {fileID: 818701555556973657}
   m_Layer: 0
   m_Name: Teapot001_Part_11
   m_TagString: Untagged
@@ -1653,6 +1926,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &818701555556973657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719907177337819169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &6966368216364032112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1736,6 +2025,7 @@ GameObject:
   - component: {fileID: 561489904600589066}
   - component: {fileID: 1885538320394857415}
   - component: {fileID: 1449755595974432626}
+  - component: {fileID: 2692221594409757194}
   m_Layer: 0
   m_Name: Teapot001_Part_6
   m_TagString: Untagged
@@ -1818,6 +2108,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2692221594409757194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7399351177116806529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &7425317712100234898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1830,6 +2136,7 @@ GameObject:
   - component: {fileID: 2098889920259577459}
   - component: {fileID: 4503087045511538473}
   - component: {fileID: 2833066805966131816}
+  - component: {fileID: 5050712201563087850}
   m_Layer: 0
   m_Name: Teapot001_Part_2
   m_TagString: Untagged
@@ -1912,6 +2219,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5050712201563087850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7425317712100234898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &7668882621253797061
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,6 +2247,7 @@ GameObject:
   - component: {fileID: 5429282156082922264}
   - component: {fileID: 8757649019570105968}
   - component: {fileID: 1236924972236839371}
+  - component: {fileID: 3682910393497273590}
   m_Layer: 0
   m_Name: Teapot001_Part_22
   m_TagString: Untagged
@@ -2006,6 +2330,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3682910393497273590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7668882621253797061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &8361566111270655541
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,6 +2358,7 @@ GameObject:
   - component: {fileID: 1588844516360111009}
   - component: {fileID: 3351298026627550265}
   - component: {fileID: 7946623310463443055}
+  - component: {fileID: 9048088388892422897}
   m_Layer: 0
   m_Name: Teapot001_Part_18
   m_TagString: Untagged
@@ -2100,6 +2441,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9048088388892422897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361566111270655541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &8557478873253776818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2112,6 +2469,7 @@ GameObject:
   - component: {fileID: 6205982645445156158}
   - component: {fileID: 3121140279677286673}
   - component: {fileID: 1623494829981595313}
+  - component: {fileID: 9211471093524401750}
   m_Layer: 0
   m_Name: Teapot001_Part_20
   m_TagString: Untagged
@@ -2194,6 +2552,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9211471093524401750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8557478873253776818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &8734896158661401137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2206,6 +2580,7 @@ GameObject:
   - component: {fileID: 5804688166163055443}
   - component: {fileID: 107637454345070099}
   - component: {fileID: 7297859478106257895}
+  - component: {fileID: 7975946978035683438}
   m_Layer: 0
   m_Name: Teapot001_Part_1
   m_TagString: Untagged
@@ -2288,6 +2663,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7975946978035683438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8734896158661401137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &9007307360221527136
 GameObject:
   m_ObjectHideFlags: 0
@@ -2300,6 +2691,7 @@ GameObject:
   - component: {fileID: 4260755739915248957}
   - component: {fileID: 2556725498808568158}
   - component: {fileID: 4201534749468700897}
+  - component: {fileID: 4130199863830514010}
   m_Layer: 0
   m_Name: Teapot001_Part_17
   m_TagString: Untagged
@@ -2382,6 +2774,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4130199863830514010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9007307360221527136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
 --- !u!1 &9196464722534467513
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,6 +2802,7 @@ GameObject:
   - component: {fileID: 4275779785884397075}
   - component: {fileID: 5825445624060472340}
   - component: {fileID: 4024849122934967789}
+  - component: {fileID: 6841165572257925002}
   m_Layer: 0
   m_Name: Teapot001_Part_19
   m_TagString: Untagged
@@ -2476,3 +2885,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6841165572257925002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9196464722534467513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Center: {fileID: 0}
+  SurfaceGravity: 0
+  OrbitDistance: 2
