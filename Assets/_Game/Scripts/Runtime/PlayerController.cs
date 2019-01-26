@@ -31,7 +31,10 @@ namespace Game
         }
 
         private void FixedUpdate ()
-        {
+        {            
+            if (input.magnitude > 1)
+                input.Normalize ();
+            
             var direction = MainCamera.TransformDirection (input);
             var frameDistance = direction * FlySpeed * Time.fixedDeltaTime;
             var targetPosition = AttachedRigidbody.position + frameDistance;

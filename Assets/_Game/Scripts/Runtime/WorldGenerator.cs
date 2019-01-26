@@ -51,11 +51,10 @@ namespace Game
                     continue;
                 }
 
-                if (magnetismDistance < sqrDistance)
+                if (magnetismDistance > sqrDistance)
                 {
                     MoveToWards (in playerPosition, obj);
-                }
-                
+                }        
             }
         }
 

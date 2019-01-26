@@ -718,7 +718,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 2
     m_Space: 2147483647
   m_Property:
     name: Max
@@ -886,7 +886,7 @@ VisualEffectResource:
       \           float tmp_bv = (float)1 / tmp_bu;\n            float3 tmp_bw = float3(tmp_bv,
       tmp_bv, tmp_bv);\n            float3 tmp_bx = tmp_bl * tmp_bw;\n            SetAttribute_E629755(
       /*inout */velocity, tmp_bx);\n        }\n        {\n            SetAttribute_F01429A3(
-      /*inout */lifetime,  /*inout */seed, (float)1, (float)3);\n        }\n        AttributeFromCurve_4D213503(
+      /*inout */lifetime,  /*inout */seed, (float)1, (float)2);\n        }\n        AttributeFromCurve_4D213503(
       /*inout */size,  /*inout */seed, Size_c);\n        \n\n\n#if VFX_USE_ALIVE_CURRENT\n
       \       if (alive)\n        {\n\t\t\tuint deadIndex = deadListIn.DecrementCounter();\n
       \           uint index = deadListIn[deadIndex];\n            attributeBuffer.Store3((index
@@ -1235,7 +1235,7 @@ VisualEffectResource:
         - m_ExpressionIndex: 17
           m_Value: 1000
         - m_ExpressionIndex: 18
-          m_Value: 3
+          m_Value: 2
       m_Vector2f:
         m_Array: []
       m_Vector3f:
