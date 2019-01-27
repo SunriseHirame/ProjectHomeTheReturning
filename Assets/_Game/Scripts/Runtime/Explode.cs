@@ -1,6 +1,7 @@
-﻿using UnityEditor;
-using UnityEngine;
-
+﻿using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 namespace Game
 {
     public class Explode : MonoBehaviour
@@ -18,12 +19,14 @@ namespace Game
             }
         }
 
+        #if UNITY_EDITOR
         [ContextMenu ("Find Rigidbodies")]
         private void FindRigidbodies ()
         {
             attachedRigidbodies = GetComponentsInChildren<Rigidbody> ();
             EditorUtility.SetDirty (this);
         }
+        #endif
     }
 
 }
