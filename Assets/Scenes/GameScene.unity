@@ -2846,7 +2846,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894860962}
-  m_LocalRotation: {x: -0.07708284, y: -4.3968067e-32, z: 5.472097e-31, w: 0.9970247}
+  m_LocalRotation: {x: -0.07708284, y: -4.3974876e-32, z: 5.472097e-31, w: 0.9970247}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8721,8 +8721,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimultaneousObjects: 220
-  GenerationRadius: 80
-  MinimumInitialRadius: 20
+  GenerationRadius: 50
+  MinimumInitialRadius: 15
   MagnetismDistance: 4
   MagnetismSpeed: 4
   ScaleCurve:

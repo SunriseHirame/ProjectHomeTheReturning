@@ -6,7 +6,7 @@ namespace Game
     public class CelestialObject : MonoBehaviour
     {             
         private float fullSizeDistance = 1;
-        private float fadeOutDistance = 40;
+        private float fadeOutDistance = 20;
 
         public float TumblingSpeed = 10;
         
@@ -50,6 +50,7 @@ namespace Game
             
             if (sqrDistanceToPlayer > (fadeOutDistance * fadeOutDistance))
             {
+                //Debug.Log ("TOO FAR");
                 if (attachedTransform.localScale != Vector3.zero)
                     attachedTransform.localScale = Vector3.zero;
                 if (TheLight.intensity != 0)
@@ -61,6 +62,7 @@ namespace Game
             var t = Mathf.Clamp01 ((fadeOutDistance - distanceToPlayer) / fadeOutDistance);
 
             t = scaleCurve.Evaluate (t);
+            //Debug.Log (t);
             attachedTransform.localScale =  Vector3.Lerp (Vector3.zero, targetSize, t);
             TheLight.intensity = Mathf.Lerp (0, lightIntensity, t);
 
