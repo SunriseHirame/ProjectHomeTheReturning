@@ -43,7 +43,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 1, g: 0.19770485, b: 0, a: 1}
+  m_Color: {r: 0.21568625, g: 0.98039216, b: 0.31323662, a: 1}
   m_Intensity: 63.661976
   m_Range: 10
   m_SpotAngle: 30
@@ -178,9 +178,9 @@ GameObject:
   - component: {fileID: 8444956517626313143}
   - component: {fileID: 7834108026566510992}
   - component: {fileID: 7916183871231200485}
-  - component: {fileID: 5733754410549674499}
+  - component: {fileID: 6697167451734085621}
   m_Layer: 0
-  m_Name: CelestialTorso
+  m_Name: CelestialHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -230,10 +230,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TheLight: {fileID: 8444956517467896708}
-  CollectionEffect: {fileID: 4686467047414355734, guid: 99c0ff2e40754f245b8f6f872628c83f,
+  CollectionEffect: {fileID: 1985801959537833975, guid: 121828c5d1e719341a076fac0550d55f,
     type: 3}
   TargetType:
-  - Type: {fileID: 11400000, guid: a556ac125c5516d40bd8bdd6b355fac9, type: 2}
+  - Type: {fileID: 11400000, guid: 57d6d1e67d97b6b479dfa5eab739ba5f, type: 2}
     Value: 1
 --- !u!33 &7834108026566510992
 MeshFilter:
@@ -242,7 +242,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517626313146}
-  m_Mesh: {fileID: 4300000, guid: d4590af8e85859b4db4273bf6f442c63, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 028b4e2caa7c5c244aab039dbfdc9107, type: 3}
 --- !u!23 &7916183871231200485
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -260,7 +260,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 209bebe1de389df41b69654a1f028323, type: 2}
+  - {fileID: 2100000, guid: 490c912d8c6d73149a8092d4874616c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -280,7 +280,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5733754410549674499
+--- !u!64 &6697167451734085621
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -293,4 +293,4 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: d4590af8e85859b4db4273bf6f442c63, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 028b4e2caa7c5c244aab039dbfdc9107, type: 3}
