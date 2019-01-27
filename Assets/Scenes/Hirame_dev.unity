@@ -129,7 +129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &91959347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,8 +219,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77e01241cd2c164482cb14b11f3a5e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SimultaneousObjects: 60
+  SimultaneousObjects: 120
   GenerationRadius: 40
+  MinimumInitialRadius: 20
   MagnetismDistance: 4
   MagnetismSpeed: 4
   CelestialObjects: {fileID: 11400000, guid: df93a837b6b59f04f820b9817e22324d, type: 2}
@@ -665,7 +666,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -769,7 +770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f634e83517986f4aa9e0fb3db56401f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeInLength: 1
+  FadeInLength: 30
   TargetVolume: 1
   TargetAudioSource: {fileID: 330976277}
 --- !u!114 &330976280
@@ -6349,8 +6350,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958299886}
-  m_LocalRotation: {x: -0.11324884, y: -0.000000017621835, z: -0.0000000020085746,
-    w: 0.9935667}
+  m_LocalRotation: {x: -0.11324884, y: 0.000000017621828, z: 0.0000000020085729, w: 0.9935667}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -7582,7 +7582,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480539007}
-  m_LocalRotation: {x: -0.07708284, y: -4.348459e-32, z: 5.472097e-31, w: 0.9970247}
+  m_LocalRotation: {x: -0.07708284, y: -4.387592e-32, z: 5.472097e-31, w: 0.9970247}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

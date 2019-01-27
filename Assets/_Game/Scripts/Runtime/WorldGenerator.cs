@@ -8,16 +8,22 @@ namespace Game
     {
         public int SimultaneousObjects = 240;
         public float GenerationRadius;
-
+        public float MinimumInitialRadius = 20f;
+        
         public float MagnetismDistance = 10f;
         public float MagnetismSpeed = 1f;
+        
+        public AnimationCurve ScaleCurve = AnimationCurve.EaseInOut (0, 0, 1, 1);
 
         public AssetList CelestialObjects;
         
         private readonly List<Transform> generatedObjects = new List<Transform> (1024);
+        public static readonly List<CelestialObject> UpdateList = new List<CelestialObject> (1024);
+
         private Transform attachedTransform;
         private Transform playerTransform;
-        
+
+
         private void Start ()
         {
             attachedTransform = transform;
@@ -28,7 +34,10 @@ namespace Game
             
             for (var i = 0; i < SimultaneousObjects; i++)
             {
-                var position = origin + Random.insideUnitSphere * GenerationRadius;
+                var pointInUnitSpace = Random.insideUnitSphere;
+                var normalized = pointInUnitSpace.normalized;
+                
+                var position = origin + pointInUnitSpace * (GenerationRadius) + normalized * MinimumInitialRadius;
                 var co = Instantiate (CelestialObjects.GetRandom (), position, Random.rotation, transform);                
                 generatedObjects.Add (co);
             }
@@ -55,6 +64,11 @@ namespace Game
                 {
                     MoveToWards (in playerPosition, obj);
                 }        
+            }
+
+            foreach (var obj in UpdateList)
+            {
+                obj.OnUpdate (ScaleCurve);
             }
         }
 

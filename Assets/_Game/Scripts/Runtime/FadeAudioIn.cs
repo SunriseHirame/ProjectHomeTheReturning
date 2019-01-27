@@ -8,10 +8,22 @@ namespace Game
         public float TargetVolume;
 
         public AudioSource TargetAudioSource;
-        
+
+        private float startTime;
+
+        private void OnEnable ()
+        {
+            startTime = Time.time;
+            TargetAudioSource.volume = 0;
+        }
+
         private void Update ()
         {
-            TargetAudioSource.volume = Mathf.Lerp (0, TargetVolume, Time.deltaTime / FadeInLength);
+            var timeElapsed = Time.time - startTime;
+            TargetAudioSource.volume = Mathf.Lerp (0, TargetVolume, timeElapsed / FadeInLength);
+
+            if (timeElapsed > FadeInLength)
+                enabled = false;
         }
     }
 

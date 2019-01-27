@@ -34,7 +34,7 @@ namespace Game
 
         private void WinGame ()
         {
-            Debug.Log ("WIN");
+            
         }
 
         [System.Serializable]
