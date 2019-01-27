@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1985801959540861507}
   - component: {fileID: 1985801959539763587}
   - component: {fileID: 586539628330639884}
+  - component: {fileID: 7143577807054101812}
   m_Layer: 0
   m_Name: Object002_Part_62
   m_TagString: Untagged
@@ -94,6 +95,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7143577807054101812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833539
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,6 +122,7 @@ GameObject:
   - component: {fileID: 1985801959540861509}
   - component: {fileID: 1985801959539763589}
   - component: {fileID: 2728638457096001061}
+  - component: {fileID: 3609094163996427501}
   m_Layer: 0
   m_Name: Object002_Part_61
   m_TagString: Untagged
@@ -188,6 +205,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3609094163996427501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833541
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +232,7 @@ GameObject:
   - component: {fileID: 1985801959540861511}
   - component: {fileID: 1985801959539763591}
   - component: {fileID: 857941956981346630}
+  - component: {fileID: 6503647191498986465}
   m_Layer: 0
   m_Name: Object002_Part_60
   m_TagString: Untagged
@@ -282,6 +315,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6503647191498986465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833543
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +342,7 @@ GameObject:
   - component: {fileID: 1985801959540861529}
   - component: {fileID: 1985801959539763609}
   - component: {fileID: 6477920390489626591}
+  - component: {fileID: 3847218433430151336}
   m_Layer: 0
   m_Name: Object002_Part_6
   m_TagString: Untagged
@@ -376,6 +425,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3847218433430151336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833545
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,6 +452,7 @@ GameObject:
   - component: {fileID: 1985801959540861515}
   - component: {fileID: 1985801959539763595}
   - component: {fileID: 4803664073797934517}
+  - component: {fileID: 1170320211915070644}
   m_Layer: 0
   m_Name: Object002_Part_7
   m_TagString: Untagged
@@ -470,6 +535,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1170320211915070644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833547
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +562,7 @@ GameObject:
   - component: {fileID: 1985801959540861517}
   - component: {fileID: 1985801959539763597}
   - component: {fileID: 6520140972565499037}
+  - component: {fileID: 3345010087172691929}
   m_Layer: 0
   m_Name: Object002_Part_65
   m_TagString: Untagged
@@ -564,6 +645,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3345010087172691929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833549
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +672,7 @@ GameObject:
   - component: {fileID: 1985801959540861519}
   - component: {fileID: 1985801959539763599}
   - component: {fileID: 6573424394800804289}
+  - component: {fileID: 641331488721547458}
   m_Layer: 0
   m_Name: Object002_Part_64
   m_TagString: Untagged
@@ -658,6 +755,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &641331488721547458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833551
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,6 +782,7 @@ GameObject:
   - component: {fileID: 1985801959540861505}
   - component: {fileID: 1985801959539763585}
   - component: {fileID: 7227426157891262238}
+  - component: {fileID: 5505174281762352538}
   m_Layer: 0
   m_Name: Object002_Part_63
   m_TagString: Untagged
@@ -752,6 +865,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5505174281762352538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833553
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,6 +892,7 @@ GameObject:
   - component: {fileID: 1985801959540861523}
   - component: {fileID: 1985801959539763603}
   - component: {fileID: 6933079407619250756}
+  - component: {fileID: 987367621080610138}
   m_Layer: 0
   m_Name: Object002_Part_55
   m_TagString: Untagged
@@ -846,6 +975,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &987367621080610138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833555
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,6 +1002,7 @@ GameObject:
   - component: {fileID: 1985801959540861525}
   - component: {fileID: 1985801959539763605}
   - component: {fileID: 8405499038793581267}
+  - component: {fileID: 5928158218713464775}
   m_Layer: 0
   m_Name: Object002_Part_54
   m_TagString: Untagged
@@ -940,6 +1085,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5928158218713464775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833557
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,6 +1112,7 @@ GameObject:
   - component: {fileID: 1985801959540861527}
   - component: {fileID: 1985801959539763607}
   - component: {fileID: 1094397450618779027}
+  - component: {fileID: 2684935968350523771}
   m_Layer: 0
   m_Name: Object002_Part_53
   m_TagString: Untagged
@@ -1034,6 +1195,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2684935968350523771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,6 +1222,7 @@ GameObject:
   - component: {fileID: 1985801959540861865}
   - component: {fileID: 1985801959539763689}
   - component: {fileID: 4072212717523490824}
+  - component: {fileID: 1017341287642671768}
   m_Layer: 0
   m_Name: Object002_Part_52
   m_TagString: Untagged
@@ -1128,6 +1305,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1017341287642671768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,6 +1332,7 @@ GameObject:
   - component: {fileID: 1985801959540861531}
   - component: {fileID: 1985801959539763611}
   - component: {fileID: 339389510007577955}
+  - component: {fileID: 6281008119016605324}
   m_Layer: 0
   m_Name: Object002_Part_59
   m_TagString: Untagged
@@ -1222,6 +1415,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6281008119016605324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,6 +1442,7 @@ GameObject:
   - component: {fileID: 1985801959540861533}
   - component: {fileID: 1985801959539763613}
   - component: {fileID: 1545261963315089262}
+  - component: {fileID: 2678313843022766441}
   m_Layer: 0
   m_Name: Object002_Part_58
   m_TagString: Untagged
@@ -1316,6 +1525,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2678313843022766441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,6 +1552,7 @@ GameObject:
   - component: {fileID: 1985801959540861535}
   - component: {fileID: 1985801959539763615}
   - component: {fileID: 7267990268795275969}
+  - component: {fileID: 4126024013840758573}
   m_Layer: 0
   m_Name: Object002_Part_57
   m_TagString: Untagged
@@ -1410,6 +1635,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4126024013840758573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,6 +1662,7 @@ GameObject:
   - component: {fileID: 1985801959540861521}
   - component: {fileID: 1985801959539763601}
   - component: {fileID: 4359037110888697646}
+  - component: {fileID: 5145257453508541192}
   m_Layer: 0
   m_Name: Object002_Part_56
   m_TagString: Untagged
@@ -1504,6 +1745,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5145257453508541192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,6 +1772,7 @@ GameObject:
   - component: {fileID: 1985801959540861559}
   - component: {fileID: 1985801959539763639}
   - component: {fileID: 7027396917748308083}
+  - component: {fileID: 8163624672491780610}
   m_Layer: 0
   m_Name: Object002_Part_9
   m_TagString: Untagged
@@ -1598,6 +1855,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8163624672491780610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,6 +1882,7 @@ GameObject:
   - component: {fileID: 1985801959540861513}
   - component: {fileID: 1985801959539763593}
   - component: {fileID: 6562991024172864258}
+  - component: {fileID: 3305617082796222730}
   m_Layer: 0
   m_Name: Object002_Part_8
   m_TagString: Untagged
@@ -1692,6 +1965,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3305617082796222730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,6 +1992,7 @@ GameObject:
   - component: {fileID: 1985801959540861827}
   - component: {fileID: 1985801959539763651}
   - component: {fileID: 7854195158004184001}
+  - component: {fileID: 6999757037701536301}
   m_Layer: 0
   m_Name: Object002_Part_33
   m_TagString: Untagged
@@ -1786,6 +2075,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6999757037701536301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,6 +2102,7 @@ GameObject:
   - component: {fileID: 1985801959540861829}
   - component: {fileID: 1985801959539763653}
   - component: {fileID: 645902573273056212}
+  - component: {fileID: 1906556566574895630}
   m_Layer: 0
   m_Name: Object002_Part_32
   m_TagString: Untagged
@@ -1880,6 +2185,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1906556566574895630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833861
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,6 +2212,7 @@ GameObject:
   - component: {fileID: 1985801959540861831}
   - component: {fileID: 1985801959539763655}
   - component: {fileID: 2154351522399294174}
+  - component: {fileID: 5275056195728043444}
   m_Layer: 0
   m_Name: Object002_Part_31
   m_TagString: Untagged
@@ -1974,6 +2295,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5275056195728043444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,6 +2322,7 @@ GameObject:
   - component: {fileID: 1985801959540861849}
   - component: {fileID: 1985801959539763673}
   - component: {fileID: 8308253097460804697}
+  - component: {fileID: 2660581812489562553}
   m_Layer: 0
   m_Name: Object002_Part_30
   m_TagString: Untagged
@@ -2068,6 +2405,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2660581812489562553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,6 +2432,7 @@ GameObject:
   - component: {fileID: 1985801959540861835}
   - component: {fileID: 1985801959539763659}
   - component: {fileID: 7724387432974964824}
+  - component: {fileID: 2744599426965277293}
   m_Layer: 0
   m_Name: Object002_Part_37
   m_TagString: Untagged
@@ -2162,6 +2515,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2744599426965277293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833867
 GameObject:
   m_ObjectHideFlags: 0
@@ -2174,6 +2542,7 @@ GameObject:
   - component: {fileID: 1985801959540861837}
   - component: {fileID: 1985801959539763661}
   - component: {fileID: 3836136595484153608}
+  - component: {fileID: 4222922017141298027}
   m_Layer: 0
   m_Name: Object002_Part_36
   m_TagString: Untagged
@@ -2256,6 +2625,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4222922017141298027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2268,6 +2652,7 @@ GameObject:
   - component: {fileID: 1985801959540861839}
   - component: {fileID: 1985801959539763663}
   - component: {fileID: 7702655387016954469}
+  - component: {fileID: 7629903854793973442}
   m_Layer: 0
   m_Name: Object002_Part_35
   m_TagString: Untagged
@@ -2350,6 +2735,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7629903854793973442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833871
 GameObject:
   m_ObjectHideFlags: 0
@@ -2362,6 +2762,7 @@ GameObject:
   - component: {fileID: 1985801959540861825}
   - component: {fileID: 1985801959539763649}
   - component: {fileID: 4072079349626222448}
+  - component: {fileID: 3702474296913379905}
   m_Layer: 0
   m_Name: Object002_Part_34
   m_TagString: Untagged
@@ -2444,6 +2845,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3702474296913379905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833873
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,6 +2872,7 @@ GameObject:
   - component: {fileID: 1985801959540861843}
   - component: {fileID: 1985801959539763667}
   - component: {fileID: 1041750921882672272}
+  - component: {fileID: 8556449982867350370}
   m_Layer: 0
   m_Name: Object002_Part_26
   m_TagString: Untagged
@@ -2538,6 +2955,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8556449982867350370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833875
 GameObject:
   m_ObjectHideFlags: 0
@@ -2550,6 +2982,7 @@ GameObject:
   - component: {fileID: 1985801959540861845}
   - component: {fileID: 1985801959539763669}
   - component: {fileID: 6890244067770435738}
+  - component: {fileID: 291814259581967978}
   m_Layer: 0
   m_Name: Object002_Part_25
   m_TagString: Untagged
@@ -2632,6 +3065,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &291814259581967978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2644,6 +3092,7 @@ GameObject:
   - component: {fileID: 1985801959540861847}
   - component: {fileID: 1985801959539763671}
   - component: {fileID: 3458956360608991144}
+  - component: {fileID: 3042141337005636466}
   m_Layer: 0
   m_Name: Object002_Part_24
   m_TagString: Untagged
@@ -2726,6 +3175,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3042141337005636466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833879
 GameObject:
   m_ObjectHideFlags: 0
@@ -2738,6 +3202,7 @@ GameObject:
   - component: {fileID: 1985801959540861929}
   - component: {fileID: 1985801959539763497}
   - component: {fileID: 3874411557942625227}
+  - component: {fileID: 6839215905770135991}
   m_Layer: 0
   m_Name: Object002_Part_23
   m_TagString: Untagged
@@ -2820,6 +3285,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6839215905770135991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2832,6 +3312,7 @@ GameObject:
   - component: {fileID: 1985801959540861851}
   - component: {fileID: 1985801959539763675}
   - component: {fileID: 7808032180536201310}
+  - component: {fileID: 243059652241181008}
   m_Layer: 0
   m_Name: Object002_Part_3
   m_TagString: Untagged
@@ -2914,6 +3395,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &243059652241181008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833883
 GameObject:
   m_ObjectHideFlags: 0
@@ -2926,6 +3422,7 @@ GameObject:
   - component: {fileID: 1985801959540861853}
   - component: {fileID: 1985801959539763677}
   - component: {fileID: 8135734737911419384}
+  - component: {fileID: 4292749142083223978}
   m_Layer: 0
   m_Name: Object002_Part_29
   m_TagString: Untagged
@@ -3008,6 +3505,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4292749142083223978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833885
 GameObject:
   m_ObjectHideFlags: 0
@@ -3020,6 +3532,7 @@ GameObject:
   - component: {fileID: 1985801959540861855}
   - component: {fileID: 1985801959539763679}
   - component: {fileID: 696745205463838635}
+  - component: {fileID: 5780354707400320812}
   m_Layer: 0
   m_Name: Object002_Part_28
   m_TagString: Untagged
@@ -3102,6 +3615,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5780354707400320812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833887
 GameObject:
   m_ObjectHideFlags: 0
@@ -3114,6 +3642,7 @@ GameObject:
   - component: {fileID: 1985801959540861841}
   - component: {fileID: 1985801959539763665}
   - component: {fileID: 935426395196089220}
+  - component: {fileID: 434030646644721590}
   m_Layer: 0
   m_Name: Object002_Part_27
   m_TagString: Untagged
@@ -3196,6 +3725,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &434030646644721590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833889
 GameObject:
   m_ObjectHideFlags: 0
@@ -3208,6 +3752,7 @@ GameObject:
   - component: {fileID: 1985801959540861859}
   - component: {fileID: 1985801959539763683}
   - component: {fileID: 6485702691388617406}
+  - component: {fileID: 69402691856635106}
   m_Layer: 0
   m_Name: Object002_Part_48
   m_TagString: Untagged
@@ -3290,6 +3835,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &69402691856635106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833891
 GameObject:
   m_ObjectHideFlags: 0
@@ -3302,6 +3862,7 @@ GameObject:
   - component: {fileID: 1985801959540861861}
   - component: {fileID: 1985801959539763685}
   - component: {fileID: 275687720945806209}
+  - component: {fileID: 3512410142513883390}
   m_Layer: 0
   m_Name: Object002_Part_47
   m_TagString: Untagged
@@ -3384,6 +3945,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3512410142513883390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3396,6 +3972,7 @@ GameObject:
   - component: {fileID: 1985801959540861863}
   - component: {fileID: 1985801959539763687}
   - component: {fileID: 4693597789182457364}
+  - component: {fileID: 231989389416610582}
   m_Layer: 0
   m_Name: Object002_Part_46
   m_TagString: Untagged
@@ -3478,6 +4055,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &231989389416610582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833895
 GameObject:
   m_ObjectHideFlags: 0
@@ -3490,6 +4082,7 @@ GameObject:
   - component: {fileID: 1985801959540861881}
   - component: {fileID: 1985801959539763705}
   - component: {fileID: 11731922790406623}
+  - component: {fileID: 1904509941856417955}
   m_Layer: 0
   m_Name: Object002_Part_45
   m_TagString: Untagged
@@ -3572,6 +4165,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1904509941856417955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833897
 GameObject:
   m_ObjectHideFlags: 0
@@ -3584,6 +4192,7 @@ GameObject:
   - component: {fileID: 1985801959540861867}
   - component: {fileID: 1985801959539763691}
   - component: {fileID: 5429992192546185642}
+  - component: {fileID: 8448812512181956666}
   m_Layer: 0
   m_Name: Object002_Part_51
   m_TagString: Untagged
@@ -3666,6 +4275,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8448812512181956666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833899
 GameObject:
   m_ObjectHideFlags: 0
@@ -3678,6 +4302,7 @@ GameObject:
   - component: {fileID: 1985801959540861869}
   - component: {fileID: 1985801959539763693}
   - component: {fileID: 3108978434983288370}
+  - component: {fileID: 9166058507298623398}
   m_Layer: 0
   m_Name: Object002_Part_50
   m_TagString: Untagged
@@ -3760,6 +4385,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9166058507298623398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833901
 GameObject:
   m_ObjectHideFlags: 0
@@ -3772,6 +4412,7 @@ GameObject:
   - component: {fileID: 1985801959540861871}
   - component: {fileID: 1985801959539763695}
   - component: {fileID: 2917364756467582395}
+  - component: {fileID: 4809413765041054488}
   m_Layer: 0
   m_Name: Object002_Part_5
   m_TagString: Untagged
@@ -3854,6 +4495,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4809413765041054488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833903
 GameObject:
   m_ObjectHideFlags: 0
@@ -3866,6 +4522,7 @@ GameObject:
   - component: {fileID: 1985801959540861857}
   - component: {fileID: 1985801959539763681}
   - component: {fileID: 4020721073513412760}
+  - component: {fileID: 3376523364620143649}
   m_Layer: 0
   m_Name: Object002_Part_49
   m_TagString: Untagged
@@ -3948,6 +4605,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3376523364620143649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833905
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,6 +4632,7 @@ GameObject:
   - component: {fileID: 1985801959540861875}
   - component: {fileID: 1985801959539763699}
   - component: {fileID: 4285708982083281835}
+  - component: {fileID: 378639866977983208}
   m_Layer: 0
   m_Name: Object002_Part_40
   m_TagString: Untagged
@@ -4042,6 +4715,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &378639866977983208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833907
 GameObject:
   m_ObjectHideFlags: 0
@@ -4054,6 +4742,7 @@ GameObject:
   - component: {fileID: 1985801959540861877}
   - component: {fileID: 1985801959539763701}
   - component: {fileID: 3971465828503243678}
+  - component: {fileID: 2797320997013108394}
   m_Layer: 0
   m_Name: Object002_Part_4
   m_TagString: Untagged
@@ -4136,6 +4825,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2797320997013108394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833909
 GameObject:
   m_ObjectHideFlags: 0
@@ -4148,6 +4852,7 @@ GameObject:
   - component: {fileID: 1985801959540861879}
   - component: {fileID: 1985801959539763703}
   - component: {fileID: 8149583696719122770}
+  - component: {fileID: 1323273824218940492}
   m_Layer: 0
   m_Name: Object002_Part_39
   m_TagString: Untagged
@@ -4230,6 +4935,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1323273824218940492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833911
 GameObject:
   m_ObjectHideFlags: 0
@@ -4242,6 +4962,7 @@ GameObject:
   - component: {fileID: 1985801959540861833}
   - component: {fileID: 1985801959539763657}
   - component: {fileID: 690600500577393298}
+  - component: {fileID: 5431043127163931576}
   m_Layer: 0
   m_Name: Object002_Part_38
   m_TagString: Untagged
@@ -4324,6 +5045,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5431043127163931576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833913
 GameObject:
   m_ObjectHideFlags: 0
@@ -4336,6 +5072,7 @@ GameObject:
   - component: {fileID: 1985801959540861883}
   - component: {fileID: 1985801959539763707}
   - component: {fileID: 1075704074534399845}
+  - component: {fileID: 3158834766427501763}
   m_Layer: 0
   m_Name: Object002_Part_44
   m_TagString: Untagged
@@ -4418,6 +5155,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3158834766427501763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833915
 GameObject:
   m_ObjectHideFlags: 0
@@ -4430,6 +5182,7 @@ GameObject:
   - component: {fileID: 1985801959540861885}
   - component: {fileID: 1985801959539763709}
   - component: {fileID: 8092914722187108429}
+  - component: {fileID: 8369504404637957161}
   m_Layer: 0
   m_Name: Object002_Part_43
   m_TagString: Untagged
@@ -4512,6 +5265,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8369504404637957161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4524,6 +5292,7 @@ GameObject:
   - component: {fileID: 1985801959540861887}
   - component: {fileID: 1985801959539763711}
   - component: {fileID: 944024514956503160}
+  - component: {fileID: 1969487440125468348}
   m_Layer: 0
   m_Name: Object002_Part_42
   m_TagString: Untagged
@@ -4606,6 +5375,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1969487440125468348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833919
 GameObject:
   m_ObjectHideFlags: 0
@@ -4618,6 +5402,7 @@ GameObject:
   - component: {fileID: 1985801959540861873}
   - component: {fileID: 1985801959539763697}
   - component: {fileID: 8646578997858698981}
+  - component: {fileID: 726376096530921692}
   m_Layer: 0
   m_Name: Object002_Part_41
   m_TagString: Untagged
@@ -4700,6 +5485,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &726376096530921692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833953
 GameObject:
   m_ObjectHideFlags: 0
@@ -4712,6 +5512,7 @@ GameObject:
   - component: {fileID: 1985801959540861923}
   - component: {fileID: 1985801959539763491}
   - component: {fileID: 8690920984628709786}
+  - component: {fileID: 652303104342473648}
   m_Layer: 0
   m_Name: Object002_Part_19
   m_TagString: Untagged
@@ -4794,6 +5595,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &652303104342473648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833955
 GameObject:
   m_ObjectHideFlags: 0
@@ -4806,6 +5622,7 @@ GameObject:
   - component: {fileID: 1985801959540861925}
   - component: {fileID: 1985801959539763493}
   - component: {fileID: 6753324818922790038}
+  - component: {fileID: 1845791065273590813}
   m_Layer: 0
   m_Name: Object002_Part_18
   m_TagString: Untagged
@@ -4888,6 +5705,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1845791065273590813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833957
 GameObject:
   m_ObjectHideFlags: 0
@@ -4900,6 +5732,7 @@ GameObject:
   - component: {fileID: 1985801959540861927}
   - component: {fileID: 1985801959539763495}
   - component: {fileID: 8389390980410559348}
+  - component: {fileID: 6904639694574487401}
   m_Layer: 0
   m_Name: Object002_Part_17
   m_TagString: Untagged
@@ -4982,6 +5815,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6904639694574487401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833959
 GameObject:
   m_ObjectHideFlags: 0
@@ -4994,6 +5842,7 @@ GameObject:
   - component: {fileID: 1985801959540861945}
   - component: {fileID: 1985801959539763513}
   - component: {fileID: 5271503543822655306}
+  - component: {fileID: 6580152697437523330}
   m_Layer: 0
   m_Name: Object002_Part_16
   m_TagString: Untagged
@@ -5076,6 +5925,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6580152697437523330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833961
 GameObject:
   m_ObjectHideFlags: 0
@@ -5088,6 +5952,7 @@ GameObject:
   - component: {fileID: 1985801959540861931}
   - component: {fileID: 1985801959539763499}
   - component: {fileID: 4250089265154346350}
+  - component: {fileID: 5683866024452719733}
   m_Layer: 0
   m_Name: Object002_Part_22
   m_TagString: Untagged
@@ -5170,6 +6035,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5683866024452719733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833963
 GameObject:
   m_ObjectHideFlags: 0
@@ -5182,6 +6062,7 @@ GameObject:
   - component: {fileID: 1985801959540861933}
   - component: {fileID: 1985801959539763501}
   - component: {fileID: 7732089707487618805}
+  - component: {fileID: 3688695421225613084}
   m_Layer: 0
   m_Name: Object002_Part_21
   m_TagString: Untagged
@@ -5264,6 +6145,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3688695421225613084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833965
 GameObject:
   m_ObjectHideFlags: 0
@@ -5276,6 +6172,7 @@ GameObject:
   - component: {fileID: 1985801959540861935}
   - component: {fileID: 1985801959539763503}
   - component: {fileID: 6044218032717257408}
+  - component: {fileID: 5861050218313591845}
   m_Layer: 0
   m_Name: Object002_Part_20
   m_TagString: Untagged
@@ -5358,6 +6255,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5861050218313591845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833967
 GameObject:
   m_ObjectHideFlags: 0
@@ -5370,6 +6282,7 @@ GameObject:
   - component: {fileID: 1985801959540861921}
   - component: {fileID: 1985801959539763489}
   - component: {fileID: 2899069034469039296}
+  - component: {fileID: 5157983752200919578}
   m_Layer: 0
   m_Name: Object002_Part_2
   m_TagString: Untagged
@@ -5452,6 +6365,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5157983752200919578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833969
 GameObject:
   m_ObjectHideFlags: 0
@@ -5464,6 +6392,7 @@ GameObject:
   - component: {fileID: 1985801959540861939}
   - component: {fileID: 1985801959539763507}
   - component: {fileID: 9105717858496630301}
+  - component: {fileID: 4503531087481127118}
   m_Layer: 0
   m_Name: Object002_Part_11
   m_TagString: Untagged
@@ -5546,6 +6475,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4503531087481127118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833971
 GameObject:
   m_ObjectHideFlags: 0
@@ -5558,6 +6502,7 @@ GameObject:
   - component: {fileID: 1985801959540861941}
   - component: {fileID: 1985801959539763509}
   - component: {fileID: 7678812514199105439}
+  - component: {fileID: 6464930962130517553}
   m_Layer: 0
   m_Name: Object002_Part_10
   m_TagString: Untagged
@@ -5640,6 +6585,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6464930962130517553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833973
 GameObject:
   m_ObjectHideFlags: 0
@@ -5652,6 +6612,7 @@ GameObject:
   - component: {fileID: 1985801959540861943}
   - component: {fileID: 1985801959539763511}
   - component: {fileID: 8114034600388429588}
+  - component: {fileID: 4942581309008973723}
   m_Layer: 0
   m_Name: Object002_Part_1
   m_TagString: Untagged
@@ -5734,6 +6695,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4942581309008973723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833975
 GameObject:
   m_ObjectHideFlags: 0
@@ -5857,6 +6833,7 @@ GameObject:
   - component: {fileID: 1985801959540861947}
   - component: {fileID: 1985801959539763515}
   - component: {fileID: 2733142559647836131}
+  - component: {fileID: 8545998333022540138}
   m_Layer: 0
   m_Name: Object002_Part_15
   m_TagString: Untagged
@@ -5939,6 +6916,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8545998333022540138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833979
 GameObject:
   m_ObjectHideFlags: 0
@@ -5951,6 +6943,7 @@ GameObject:
   - component: {fileID: 1985801959540861949}
   - component: {fileID: 1985801959539763517}
   - component: {fileID: 2370761042613307845}
+  - component: {fileID: 2399861907466239860}
   m_Layer: 0
   m_Name: Object002_Part_14
   m_TagString: Untagged
@@ -6033,6 +7026,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2399861907466239860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833981
 GameObject:
   m_ObjectHideFlags: 0
@@ -6045,6 +7053,7 @@ GameObject:
   - component: {fileID: 1985801959540861951}
   - component: {fileID: 1985801959539763519}
   - component: {fileID: 7703950237543475466}
+  - component: {fileID: 3145970442677597560}
   m_Layer: 0
   m_Name: Object002_Part_13
   m_TagString: Untagged
@@ -6127,6 +7136,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3145970442677597560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &1985801959537833983
 GameObject:
   m_ObjectHideFlags: 0
@@ -6139,6 +7163,7 @@ GameObject:
   - component: {fileID: 1985801959540861937}
   - component: {fileID: 1985801959539763505}
   - component: {fileID: 151932979431113846}
+  - component: {fileID: 5296133213253164336}
   m_Layer: 0
   m_Name: Object002_Part_12
   m_TagString: Untagged
@@ -6221,6 +7246,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5296133213253164336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985801959537833983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672497ac2727ee24b82fa354466f5a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 4
+  SurfaceGravity: 0
+  OrbitDistance: 10
 --- !u!1 &2353463672456206753
 GameObject:
   m_ObjectHideFlags: 0
