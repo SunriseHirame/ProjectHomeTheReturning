@@ -637,6 +637,8 @@ GameObject:
   m_Component:
   - component: {fileID: 330976278}
   - component: {fileID: 330976277}
+  - component: {fileID: 330976279}
+  - component: {fileID: 330976280}
   m_Layer: 0
   m_Name: THEME
   m_TagString: Untagged
@@ -651,13 +653,13 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330976276}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 302946c99c53c65418d5accd6d5f66d8,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 25e8f79ba760cd5418c952e39fa6018d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: -1
   Loop: 1
   Mute: 0
@@ -755,6 +757,62 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &330976279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330976276}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f634e83517986f4aa9e0fb3db56401f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FadeInLength: 1
+  TargetVolume: 1
+  TargetAudioSource: {fileID: 330976277}
+--- !u!114 &330976280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330976276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044c00477c5c8a142b6f180ae43568cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FireOnEnable: 1
+  Delay: 1
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 330976279}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 330976277}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &373973668
 GameObject:
   m_ObjectHideFlags: 3
@@ -7524,7 +7582,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480539007}
-  m_LocalRotation: {x: -0.07708284, y: -4.3434343e-32, z: 5.472097e-31, w: 0.9970247}
+  m_LocalRotation: {x: -0.07708284, y: -4.348459e-32, z: 5.472097e-31, w: 0.9970247}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
