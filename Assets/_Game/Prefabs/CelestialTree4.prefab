@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517467896712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -66.6, y: -97.3, z: 176}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8444956517626313137}
@@ -43,8 +43,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 0.98039216, g: 0.9700528, b: 0.21568625, a: 1}
-  m_Intensity: 47.746483
+  m_Color: {r: 1, g: 0, b: 0.037613392, a: 1}
+  m_Intensity: 1193.662
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -105,14 +105,14 @@ MonoBehaviour:
   shapeWidth: 0.5
   shapeHeight: 0.5
   aspectRatio: 1
-  shapeRadius: 0
+  shapeRadius: 0.03
   maxSmoothness: 0.99
   applyRangeAttenuation: 1
   useOldInspector: 0
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 0
-  displayLightIntensity: 600
+  displayLightIntensity: 15000
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.1
@@ -176,11 +176,11 @@ GameObject:
   - component: {fileID: 8444956517626313137}
   - component: {fileID: 8444956517626313141}
   - component: {fileID: 8444956517626313143}
-  - component: {fileID: 4947200647899583831}
-  - component: {fileID: 7764864754306862982}
-  - component: {fileID: 8679430226831510530}
+  - component: {fileID: 1455743943797593173}
+  - component: {fileID: 7474259572408113761}
+  - component: {fileID: 3457954186497763958}
   m_Layer: 0
-  m_Name: CelestialBrick
+  m_Name: CelestialTree4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -193,14 +193,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517626313146}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071685, y: 0, z: 0, w: 0.7070451}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8444956517467896715}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.01, y: 0, z: 0}
 --- !u!54 &8444956517626313141
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -230,20 +230,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TheLight: {fileID: 8444956517467896708}
-  CollectionEffect: {fileID: 865364125686902873, guid: 3de6ea3c7a8178242b605d361ed1bfe6,
+  CollectionEffect: {fileID: 1036915387581111942, guid: 39ac8f9284ee4b043827a7af34f17742,
     type: 3}
   TargetType:
-  - Type: {fileID: 11400000, guid: 57d6d1e67d97b6b479dfa5eab739ba5f, type: 2}
+  - Type: {fileID: 11400000, guid: a556ac125c5516d40bd8bdd6b355fac9, type: 2}
     Value: 1
---- !u!33 &4947200647899583831
+--- !u!33 &1455743943797593173
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517626313146}
-  m_Mesh: {fileID: 4300000, guid: 02352db12ff847243900d454412fc13d, type: 3}
---- !u!23 &7764864754306862982
+  m_Mesh: {fileID: 4300000, guid: 2eca716ab22a0df4daec104158411190, type: 3}
+--- !u!23 &7474259572408113761
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,7 +260,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac1c506afafb91842ae739d8ae58e03a, type: 2}
+  - {fileID: 2100000, guid: 209bebe1de389df41b69654a1f028323, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -280,7 +280,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8679430226831510530
+--- !u!65 &3457954186497763958
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -288,8 +288,8 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8444956517626313146}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.080000006, y: 0.16000004, z: 0.08000002}
-  m_Center: {x: 0, y: 0.000000003725291, z: 0}
+  m_Size: {x: 376.60233, y: 368.79095, z: 424.62756}
+  m_Center: {x: 8.4518585, y: 5.376976, z: 212.31378}

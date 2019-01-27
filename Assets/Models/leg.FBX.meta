@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-guid: e64d16884ef63be4e930e2f56a09eaed
+guid: 85614aa0fdf4f4845883f687302f4eae
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: 01 - Default
+    2100000: Female_Mesh
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Foliage002
-    2186277476908879412: ImportLogs
+    4300000: Object001
   externalObjects: {}
   materials:
     importMaterials: 1
